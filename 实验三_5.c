@@ -4,7 +4,7 @@
 void main() 
 {
 	float x,y;
-	printf("请输入x的值：\n");
+	printf("Please Input Number:%f\n");
 	scanf("%f",&x);
 	if(x>0)
 		y = exp(-x);
@@ -15,5 +15,5 @@ void main()
 		y = exp(x);
 		y = y*(-1);
 	}
-	printf("y的值为%f。\n",y);
+	printf("The result is:%f\n",y);
 }
